@@ -9,7 +9,7 @@
 #SBATCH --cpus-per-task=36
 
 # Replace [budget code] below with your budget code (e.g. dc116-s1234567)
-#SBATCH --account=m22ol-s1790387
+#SBATCH --account=accountid
 # We use the "standard" partition as we are running on CPU nodes
 #SBATCH --partition=standard
 # We use the "short" QoS as our runtime is less than20 mins 
